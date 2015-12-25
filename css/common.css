@@ -115,13 +115,13 @@ a {
     top: 30px;
     left: 75%;*/
     float: right;
-    width: 250px;
+    width: 300px;
     background: #EA756A;
 }
 #header .search input {
     float: left;
     height: 40px;
-    width: 240px;
+    width: 250px;
     background: none;
     border: none;
     outline: none;
