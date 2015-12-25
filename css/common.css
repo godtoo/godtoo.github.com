@@ -378,7 +378,7 @@ color: #272322;
 /*article*/
 
 .index_lists:hover {
-    border-top: solid 2px #00BB6F;
+    border-top: solid 2px #DB6D4C;
 }
 .index_lists .article-bottom {} .index_lists .article-bottom .metatag {
     height: 20px;
