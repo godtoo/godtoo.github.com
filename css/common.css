@@ -189,8 +189,9 @@ line-height: 24px;
 }
 
 .book-box-ctt h4 a {
-color: #333;
-font-size: 14px;
+color: #272322;
+font-size: 20px;
+font-weight: bold;
 }
 
 .book-box-ctt p em {
