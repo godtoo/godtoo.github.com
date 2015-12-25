@@ -145,10 +145,18 @@ a {
 
 .side h2 {
     margin: 0 auto;
+    /*
     font-size: 14px;
-    border-bottom: 1px solid #ededed;
-    height: 30px;
+        height: 30px;
     line-height: 30px;
+    */
+    border-bottom: 1px solid #ededed;
+
+
+    font-weight: bold;
+    font-size: 20px;
+    color: #3169b0;
+        line-height: 40px;
 }
 
 
