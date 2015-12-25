@@ -4,7 +4,7 @@ body {
     background-color: #F0F0F0;
     font-family:  "microsoft yahei",Arial,"Monaco", "Hiragino Sans GB", Trebuchet, "Trebuchet MS", Tahoma, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     word-spacing: 0px;
-    border-top: 5px solid #00bb6f;
+    /*border-top: 5px solid #00bb6f;*/
 }
 
 /*.wrap {
