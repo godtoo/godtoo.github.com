@@ -14,7 +14,7 @@ body {
 
 
 #header,#main,#sub-main{
-        width: 1000px;
+        width: 1300px;
 }
 /***********头部**************/
 
@@ -48,7 +48,7 @@ body {
 
 /*首页文章列表*/
 .content {
-    width: 710px;
+    width: 780px;
     margin-right: 10px;
     display: inline;
     padding: 0;
