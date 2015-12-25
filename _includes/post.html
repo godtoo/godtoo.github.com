@@ -8,16 +8,7 @@
                 </span>
             </div>
             <div class="postcontent">{{ content}}</div>
-            <div class="likepost">
-                <h2>您可能感兴趣的文章</h2>
-                <ul>
-                    {% for v in site.categories[page.category] limit:5  %}
-                    <li>
-                        <a href="{{ site:url  }}{{ v.url  }}">{{ v.title  }}</a>
-                    </li>
-                    {% endfor  %}
-                </ul>
-            </div>
+
 <!-- 多说评论框 start -->
     <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="www.godtoo.com/{{ page.url }}"></div>
 <!-- 多说评论框 end -->
