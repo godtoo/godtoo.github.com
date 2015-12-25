@@ -26,10 +26,10 @@ body {
     /*border-radius: 0px 0px 5px 5px;*/
 }
 #header {
-    height: 50px;
+    height: 30px;
     margin: 0 auto;
     position: relative;
-    padding: 10px 10px;
+    padding: 20px 10px;
     overflow: hidden;
 }
 
