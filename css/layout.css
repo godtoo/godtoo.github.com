@@ -64,11 +64,11 @@ body {
 
 /***********左边条********************/
 .sidebar {
-    width: 300px;
+    width: 200px;
 }
 
 .side {
-    width: 280px;
+    width: 180px;
     padding: 10px;
     margin-bottom: 10px;
 }
