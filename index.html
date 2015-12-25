@@ -1,0 +1,179 @@
+---
+layout: default
+title: "育好儿 - 读懂孩子,科学教养"
+description: "育好儿,为您传递最有价值的育儿理论。读懂孩子,科学教养,是我们坚持不懈的追求。"
+keywords: 育好儿,早教,亲子早教,亲子教育,育儿经验,育儿心理学
+---
+<!-- 标签云 -->
+<div  class="tag-container radius" >
+    <div class="biaoqian idx-biaoqian">
+        <a href="/tags/374.html" target="_blank">大数据</a>
+        |
+        <a href="/tags/29.html" target="_blank">创业</a>
+        |
+        <a href="/tags/40.html" target="_blank">百度</a>
+        |
+        <a href="/tags/54.html" target="_blank">苹果</a>
+        |
+        <a href="/tags/35.html" target="_blank">马云</a>
+        |
+        <a href="/tags/79.html" target="_blank">移动互联网</a>
+        |
+        <a href="/tags/68.html" target="_blank">微信</a>
+        |
+        <a href="" target="_blank">智能电视</a>
+    </div>
+</div>
+{% if paginator.page ==1 %}
+<!-- 头条 -->
+{% for page in site.pages %}
+{% if page.group == 'topline' %}
+<div class="toutiao idx-toutiao radius">
+    <h2>
+        <a href="{{ site:url  }}{{ page.url  }}" target="_blank">{{page.title}}</a>
+    </h2>
+    <p>{{page.subtitle}}</p>
+    <div class="box-img">
+        <a href="{{ site:url  }}{{ page.url  }}" target="_blank">
+            <img src="{{ site:url }}/images/{{ page.img }}"></a>
+    </div>
+    <div class="box-other">
+        <span class="toggle-tooltip later-reading-wrap">
+            <a href="javascript:void(0);" class="later-reading-btn " aid="44492" data-toggle="tooltip" data-placement="top" data-original-title="稍后阅读，保存后在微信中也可查看列表.^_^"> <i data-original-title="" title=""></i>
+            </a>
+        </span>
+        <span class="source-quote">
+            <a class="hx-card" userid="303086" href="/member/303086.html" target="_blank">Eastland</a>
+            <a href="/renzheng.html?#hxtdrz" target="_blank" class="c-hxrz hxfwtd" title="虎嗅团队"></a>
+        </span>
+        <time>{{ page.date | date:"%Y-%m-%d" }}</time>
+        <span class="comment-box"> <i class="icon-comment"></i>
+            <a href="/comment/44492/1.html" target="_blank">9</a>
+        </span>
+        <span class="tags-box">{{ page.tags | array_to_sentence_string }}</span>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<!-- 最新要闻 -->
+<!-- <div class="idx-news radius">
+    <div class="title">
+        <h2>最新要闻</h2>
+    </div>
+    <div class="cont clr">
+        <div class="cont-left">
+            <ul class="news-ul">
+                {% for page in site.pages limit:3 %}
+{% if page.group == 'news' %}
+                <li class="clr">
+                    <div class="img">
+                        <a href="{{ site:url  }}{{ page.url  }}" target="_blank">
+                            <img src="{{ site:url }}/images/{{ page.img }}"></a>
+                    </div>
+                    <div class="word">
+                        <h3>
+                            <a href="{{ site:url  }}{{ page.url  }}" target="_blank">{{page.title}}</a>
+                        </h3>
+                        <p>{{page.subtitle}}</p>
+                    </div>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="cont-right">
+            <ul class="news-ul">
+                {% for page in site.pages limit:3 offset:3 %}
+            {% if page.group == 'news'   %}
+                <li class="clr">
+                    <div class="img">
+                        <a href="{{ site:url  }}{{ page.url  }}" target="_blank">
+                            <img src="{{ site:url }}/images/{{ page.img }}"></a>
+                    </div>
+                    <div class="word">
+                        <h3>
+                            <a href="{{ site:url  }}{{ page.url  }}" target="_blank">{{page.title}}</a>
+                        </h3>
+                        <p>{{page.subtitle}}</p>
+                    </div>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div> -->
+
+{% endif %}
+
+
+<!-- 文章列表 -->
+{% for post in paginator.posts %}
+<div class="index_lists">
+    <div class="index_des">
+        <div class="index_img">
+            {% if post.img %}
+            <img src="{{ site:url }}/images/{{ post.img }}" alt="" />
+            {% endif %}
+        </div>
+        <div class="article-right">
+            <h4>
+                <a href="{{ site:url  }}{{ post.url  }}" target="_blank">{{post.title}}</a>
+            </h4>
+            <div class="article-right-text">{{ post.description }}</div>
+        </div>
+    </div>
+
+    <div class="article-bottom">
+        <div class="metatag">
+            <span class="date">{{ post.date | date:"%Y-%m-%d" }}</span>
+            <ul class="tags">
+            {% assign tags_list = post.tags %}
+            {% include COM/tags_list %}
+            </ul>
+            <a href="" class="au" target="_blank">
+                <span>{{post.author}}</span>
+                <i></i>
+            </a>
+            <a href="" class="sor">{{post.category}}</a>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+<!-- 分页 -->
+<div class="ep-pages">
+    <span>第{{paginator.page}}页/共{{paginator.total_pages}}页</span>
+    <a href="/">|<</a>
+    {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+        <a href="/" ><<</a>
+        {% else %}
+        <a href="/page{{paginator.previous_page}}"><<</a>
+        {% endif %}
+
+    {% else %}
+    <span><<</span>
+    {% endif %} 
+
+
+      {% if paginator.page == 1 %}
+        <span class="current">1</span>
+      {% else %}
+        <a href="/">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) limit:8 %} 
+    {% if count == paginator.page %}
+    <span class="current">{{count}}</span>
+    {% else %}
+    <a href="/page{{count}}">{{count}}</a>
+    {% endif %} {% endfor %} {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}">>></a>
+    {% else %}
+    <span>>></span>
+    {% endif %}
+    <a href="/page{{paginator.total_pages}}">>|</a>
+</div>

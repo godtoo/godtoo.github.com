@@ -1,0 +1,36 @@
+
+        <div class="postbox radius">
+            <div class="post-header">
+                <h2 class="first_title">{{ page.title  }}</h2>
+                <span class="posted_info">
+                    {{page.author}} on {{ page.date | date:"%Y-%m-%d"  }} | 
+                    <a class="post-category" href="{{ site:url }}/categorys/{{ page.category }}.html">{{ page.category }}</a>
+                </span>
+            </div>
+            <div class="postcontent">{{ content}}</div>
+            <div class="likepost">
+                <h2>您可能感兴趣的文章</h2>
+                <ul>
+                    {% for v in site.categories[page.category] limit:5  %}
+                    <li>
+                        <a href="{{ site:url  }}{{ v.url  }}">{{ v.title  }}</a>
+                    </li>
+                    {% endfor  %}
+                </ul>
+            </div>
+                    <!--兼容版，可保证页面完全兼容-->
+        <div id="SOHUCS"></div>
+        <script>
+  (function(){
+    var appid = 'cyrrwegJa',
+    conf = 'prod_ce9ec8dc1ac1bcef401160b08c998f87';
+    var doc = document,
+    s = doc.createElement('script'),
+    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+    s.type = 'text/javascript';
+    s.charset = 'utf-8';
+    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+    h.insertBefore(s,h.firstChild);
+  })()
+</script>
+        </div>

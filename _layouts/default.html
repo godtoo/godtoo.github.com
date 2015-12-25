@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="baidu-site-verification" content="qGD6Qi8VD6" />
+    <title>{{ page.title }}</title>
+    <meta name="keywords" content="{{  page.keywords }}" />
+    <meta name="description" content="{{  page.description }}" />
+
+    <link href="{{ site:url }}/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="{{ site:url }}/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="{{ site:url }}/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/prettify/prettify.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="bookmark" href="/favicon.ico" />
+    <script type="text/javascript" src="/jquery.js"></script>
+    <script type="text/javascript" src="/prettify/prettify.js"></script>
+</head>
+
+<body>
+    <div id="header-container" class="radius">
+        <div id="header">
+            <div class="site-logo">
+                <a href="{{ site:url  }}" id="logo"><img src="{{ site:url }}/images/logo-yu.png" alt="" /></a>
+                <p> 读懂孩子 ·科学教养</p>
+            </div>
+            <div class="top-nav-bar">
+           <ul class="menu">
+                    <li>
+                        <a>
+                            妈妈说 <em>Tell Mom</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            推荐书单 <em>Recommended books</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            宝贝推荐
+                            <em>Good goods</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            消费指南
+                            <em>Consumer guide</em>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search" id="top-search-bar">
+                <form method="GET" action="http://www.yuhaoer.com/search">
+                    <input type="text" name="s" autocomplete="off" value="">
+                    <button type="submit"></button>
+                </form>
+            </div>
+            <!-- search END --> </div>
+    </div>
+
+    <div id="main">
+        <div class="content left">{{ content}}</div>
+        <div class="sidebar right">
+             {% include side_book.html %} {% include sidebar.html %} {% include side_categorys.html %} {% include side_links.html %}
+        </div>
+    </div>
+
+    <div id="sub-container">
+        <div id="sub-main">
+            <div class="sc-1">
+                <div class="site-about">
+                    <h3>
+                        关于本站
+                        <span>About</span>
+                    </h3>
+                    <div>
+                        <p>
+                            通过早教，早就冠军宝贝，冠军宝贝冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，冠军宝贝，...
+                            <a href="http://www.yuhaoer.com/about/">了解更多</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="site-elsewhere">
+                    <p>
+                        <a href="5" target="_blank">新浪微博</a>
+                        ·
+                        <a href="" target="_blank">个人博客</a>
+                    </p>
+                </div>
+            </div>
+            <div class="sc-2">
+                <div class="site-archives">
+                    <h3>
+                        合作伙伴
+                        <span>Partner</span>
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href='' title=''>合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href='' title=''>合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href='' title=''>合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href='' title=''>合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href='' title=''>合作伙伴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site-rss">
+                    <a href="" class="rss-link">RSS 订阅</a>
+                </div>
+            </div>
+            <div class="sc-3">
+                <div class="mail-subscribe">
+                    <form action="http://hellombti.us5.list-manage1.com/subscribe/post?u=173ae2fdf7ebdb6c6340541ab&amp;id=1cdd3f5b51" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                        <h3>
+                            邮件订阅
+                            <span>Subscribe</span>
+                        </h3>
+                        <p>
+                            <input type="email" value="" name="EMAIL" class="subscribe-input" id="mce-EMAIL" placeholder="输入你的EMAIL地址" required />
+                        </p>
+                        <p>
+                            <input type="submit" value="立即订阅" name="subscribe" id="mc-embedded-subscribe" class="subscribe-btn"/>
+                        </p>
+                    </form>
+                </div>
+                <div class="site-brand">
+                    <a href="">
+                        <img src="" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end #sub-container-->
+
+    <div class="footer radius">
+        &copy; 大熊 2014
+        <a href="" target="_blank">育好儿</a>
+    </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21006486-4', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+
+</html>
