@@ -301,6 +301,13 @@ margin-left: 10px;
 .postcontent ul li {
     color: #005580;
 }
+
+.postcontent h3{
+font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0px 15px;
+}
+
 .content_h2 {
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid #ededed;
