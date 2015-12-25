@@ -2,8 +2,8 @@ body {
     /*background: #c6e5f2 url(/images/spriteme2.png) no-repeat center top;
     background-position: -79px -10px;*/
     background-color: #F0F0F0;
-    font-family: "Monaco", "Hiragino Sans GB", "Microsoft YaHei", Trebuchet, "Trebuchet MS", Tahoma, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-    word-spacing: 1px;
+    font-family:  "microsoft yahei",Arial,"Monaco", "Hiragino Sans GB", Trebuchet, "Trebuchet MS", Tahoma, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    word-spacing: 0px;
     border-top: 5px solid #00bb6f;
 }
 
