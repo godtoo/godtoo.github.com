@@ -1,4 +1,4 @@
 baseurl: /
 url: http://www.godtoo.com
-
+permalink: pretty
 paginate: 10
