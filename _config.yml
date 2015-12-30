@@ -1,4 +1,4 @@
 baseurl: /
 url: http://www.godtoo.com
-permalink: date
+permalink: /:title.html
 paginate: 10
