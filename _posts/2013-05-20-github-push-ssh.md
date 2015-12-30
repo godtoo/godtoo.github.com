@@ -6,6 +6,7 @@ description: "也许你每次push代码至github的时候，都要求输入用�
 keywords: github,ssh,https,密钥
 category: Github
 tags: [Github]
+author: 大熊
 ---
 
 也许你每次push代码至github的时候，都要求输入用户名和密码，是不是感觉很麻烦！是什么原因导致的？客户端与github建立连接有两种方式：一种是https，另外一种是基于密钥的SSH连接。https方式每次提交都需要输入账号和密码进行认证；而SSH方式是在客户端所在的电脑生成密钥，同时把密钥部署到github服务器上，客户端与github服务器通过密钥进行认证。所以每次Push都要输入账号和密码，原因是使用了https方式push。

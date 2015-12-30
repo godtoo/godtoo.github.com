@@ -6,6 +6,7 @@ description: "Sublime Text 的快捷键还支持双重组合，譬如默认情�
 keywords: sublime
 category: 常用工具
 tags: [sublime]
+author: 大熊
 ---
 
 这个例子里我在 Key Bindings - User 里面的第一行：{ "keys": ["alt+up"], "command": "swap_line_up" }, 意思就是按 Alt+方向键上时将当前选择的那一行向上移（与上一行交换位置），如果语法神马的没问题，保存好这个文件之后马上就可以使用这个快捷键了。

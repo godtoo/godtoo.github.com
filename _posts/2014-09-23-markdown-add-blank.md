@@ -6,6 +6,7 @@ description: "Markdown支持两种形式的链接语法：行内和参考两种�
 keywords: Markdown
 category: Github
 tags: [Markdown]
+author: 大熊
 ---
 
 Markdown 支持两种形式的链接语法：行内和参考两种形式，两种都是使用角括号来把文字转成连结。

@@ -4,6 +4,7 @@ title: "基于GitHub搭建免费无限流量blog--使用GitHub Pages创建博客
 img: 201301/cblog/blog.jpg
 category: Github
 tags: [Github]
+author: 大熊
 description: "经过前面两篇文章的介绍，你已经知道如何创建github连接，如何创建代码仓库，如何上传和获取代码文件，这些都是建立blog的前奏，本篇GitHub pages将隆重登场，它是建立你的blog的核心功能。通过msysgit客户端与GitHub建立连接后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.com这样的用户&组织页（站），另一种是依附项目的pages。"
 ---
 
