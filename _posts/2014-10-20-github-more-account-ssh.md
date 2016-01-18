@@ -13,13 +13,13 @@ author: 大熊
 
 ####1、新建user2的SSH Key
 
-<pre class="content_pre">
+<pre><code class="html">
 #新建SSH key：
 $ cd ~/.ssh     # 切换到C:\Users\Administrator\.ssh
 ssh-keygen -t rsa -C "mywork@email.com"  #user2 账号注册时的邮箱
 #设置名称为id_rsa_work（如果不输，默认名称是id_rsa,一定要与user1生成的文件名区分开来，否则会覆盖）
 Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa): id_rsa_work
-</pre>
+</code></pre>
 
 ####2、修改config文件
 
