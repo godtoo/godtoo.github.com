@@ -13,7 +13,7 @@ author: 大熊
 
 ####1、新建user2的SSH Key
 
-<pre><code class="html">
+<pre><code>
 #新建SSH key：
 $ cd ~/.ssh     # 切换到C:\Users\Administrator\.ssh
 ssh-keygen -t rsa -C "mywork@email.com"  #user2 账号注册时的邮箱
