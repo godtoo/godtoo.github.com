@@ -52,10 +52,6 @@ IdentityFile ~/.ssh/id_rsa_work
 $ ssh -T github2
 </code></pre>
 
-```HTML
-   这里放代码
-```
-
 #### 参考文章：
 
 * [多github帐号的SSH key切换](http://www.cnblogs.com/BeginMan/p/3548139.html)
