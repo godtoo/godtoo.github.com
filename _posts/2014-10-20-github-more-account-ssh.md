@@ -48,7 +48,7 @@ IdentityFile ~/.ssh/id_rsa_work
 #### 3、打开新生成的~/.ssh/id_rsa2.pub文件，将里面的内容添加到GitHub后台。
 
 #### 4、测试：
-<pre class="prettyprint"><code>
+<pre><code>
 $ ssh -T github2
 </code></pre>
 
