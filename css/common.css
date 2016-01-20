@@ -212,10 +212,9 @@ font-weight: bold;
     margin: 2px;
 }
 .postcontent blockquote p {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 900%;
 }
-
 
 .postcontent ul,ol{
 margin-bottom: 15px;
