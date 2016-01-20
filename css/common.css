@@ -518,6 +518,8 @@ padding-top: 3px;
     font-size: 14px;
     padding-left: 0px;
     margin-left: 0px;
+    list-style-type: square;
+    list-style-position: inside;
 }
 .side_ul li a {
     text-decoration: none;
