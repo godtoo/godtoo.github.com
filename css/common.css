@@ -212,11 +212,8 @@ font-weight: bold;
     margin: 2px;
 }
 .postcontent blockquote p {
-    /*font-style: italic;*/
     font-size: 16px;
     font-weight: 900%;
-    color:#005580;
-    font-family: 楷体, 楷体_GB2312, SimKai;
 }
 
 
