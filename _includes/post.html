@@ -3,7 +3,7 @@
             <div class="post-header">
                 <h2 class="first_title">{{ page.title  }}</h2>
                 <span class="posted_info">
-                    {{page.author}} on {{ page.date | date:"%Y-%m-%d"  }} | 
+                    {{page.author}} on {{ page.date | date:"%Y-%m-%d"  }} |
                     <a class="post-category" href="{{ site:url }}/categorys/{{ page.category }}.html">{{ page.category }}</a>
                 </span>
             </div>
@@ -22,7 +22,7 @@ var duoshuoQuery = {short_name:"fety"};
         ds.type = 'text/javascript';ds.async = true;
         ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
         ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] 
+        (document.getElementsByTagName('head')[0]
          || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
     </script>
