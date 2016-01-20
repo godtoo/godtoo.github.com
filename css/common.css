@@ -231,8 +231,15 @@ margin-left: 10px;
     font-size: 13px;
 }
 
-.postcontent ul li  a{
+.postcontent ul li  a,ol li a{
     color: #005580;
+}
+
+.lph-article-comView blockquote {
+    border-left: 5px solid #eee;
+    margin: 20px;
+    padding: 5px 10px;
+    clear: both;
 }
 
 .postcontent h3{
