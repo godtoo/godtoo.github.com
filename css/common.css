@@ -147,7 +147,7 @@ h2.first_title a:hover {
 
 .post-header{
       display: inline-block;
-      border-bottom: 1px solid #eee;
+      border-bottom: 10px solid #eee;
       margin-bottom: 20px;
 }
  .posted_info {
