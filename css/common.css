@@ -212,9 +212,6 @@ h2.first_title a:hover {
     font-family: 楷体, 楷体_GB2312, SimKai;
 }
 
-.postcontent p a {
-    color: #333;
-}
 
 .postcontent ul{
 margin-bottom: 15px;
@@ -223,6 +220,7 @@ margin-left: 10px;
 
 .postcontent ul li {
     color: #005580;
+    font-size: 13px;
 }
 
 .postcontent h3{
