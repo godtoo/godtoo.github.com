@@ -510,7 +510,8 @@ padding-top: 3px;
 }
 .side_ul li a {
     text-decoration: none;
-    color: #444
+    color: #444;
+    word-spacing: 2px;
 }
 .side_ul li a:hover {
     color: #009900;
