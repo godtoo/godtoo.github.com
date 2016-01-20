@@ -2,7 +2,7 @@
 layout: post
 title: "为什么每次push都要输入账号密码？"
 img: 201305/200101.jpg
-description: "也许你每次push代码至github的时候，都要求输入用户名和密码，是不是感觉很麻烦！是什么原因导致的？客户端与github建立连接有两种方式：一种是https，另外一种是基于密钥的SSH连接。https方式每次提交都需要输入账号和密码进行认证；而SSH方式是在客户端所在的电脑生成密钥，同时把密钥部署到github服务器上，客户端与github服务器通过密钥进行认证。所以每次Push都要输入账号和密码，原因是使用了https方式push。"
+description: "第一次使用github,每次push代码至github的时候，都要求输入用户名和密码，感觉很麻烦,原以为就是这样，但总觉得还是有其他方式，经过资料搜索，终于知道如何解决不需要每次输密码了。"
 keywords: github,ssh,https,密钥
 category: Github
 tags: [Github]
@@ -17,9 +17,9 @@ $git remote add origin https://github.com/fety/fety.github.com.git
 {% endhighlight %}
 
 ###如何查看当前连接方式？
-在git bash命令窗口里输入 
+在git bash命令窗口里输入
 {% highlight bash %}
-$git remote -v 
+$git remote -v
 {% endhighlight %}
 返回结果
 {% highlight bash %}
@@ -32,7 +32,7 @@ origin https://github.com/fety/fety.github.com.git (push)
 {% highlight bash %}
 1. git remote rm origin
 2. git remote add origin git@github.com:fety/fety.github.com.git
-3. git push origin 
+3. git push origin
 {% endhighlight %}
 
 ###什么是SSH?
