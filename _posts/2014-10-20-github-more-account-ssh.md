@@ -45,7 +45,10 @@ IdentityFile ~/.ssh/id_rsa_work
 
 其规则就是：从上至下读取config的内容，在每个Host下寻找对应的私钥。这里将GitHub SSH仓库地址中的git@github.com替换成新建的Host别名如：github2，那么原地址是：git@github.com:xiong/xiong.git，替换后应该是：github2:xiong/xiong.git.
 
-### 打开新生成的~/.ssh/id_rsa2.pub文件，将里面的内容添加到GitHub后台。
+### 添加密钥到GitHub后台
+
+打开新生成的~/.ssh/id_rsa2.pub文件，将里面的内容添加到GitHub后台。
+
 
 ### 测试：
 <pre><code>
