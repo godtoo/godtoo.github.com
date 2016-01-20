@@ -3,7 +3,7 @@
             <div class="post-header">
                 <h2 class="first_title">{{ page.title  }}</h2>
                 <span class="posted_info">
-                    {{page.author}} on {{ page.date | date:"%Y-%m-%d"  }} |
+                      {{ page.date | date:"%Y-%m-%d"  }} {{page.author}} |
                     <a class="post-category" href="{{ site:url }}/categorys/{{ page.category }}.html">{{ page.category }}</a>
                 </span>
             </div>
