@@ -503,9 +503,9 @@ padding-top: 3px;
     margin-left: 270px;
 }
 .article-right-text {
-    font-size: 14px;
-    color: #666666;
-    line-height: 1.8;
+    font-size: 13px;
+    color: #888;
+    line-height: 1.5;
 }
 .index_lists .index_img {
     float: left;
@@ -902,4 +902,3 @@ img {
         display: inline-block;
     }
     /*end 头条*/
-
