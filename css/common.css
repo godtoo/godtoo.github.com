@@ -220,7 +220,12 @@ margin-left: 10px;
 
 .postcontent ul li {
     color: #005580;
+    padding: 2px 0px;
     font-size: 13px;
+}
+
+.postcontent ul li  a{
+    color: #005580;
 }
 
 .postcontent h3{
