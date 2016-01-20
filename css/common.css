@@ -151,6 +151,10 @@ h2.first_title a:hover {
     border-bottom: 1px solid #eee;
     margin-bottom: 20px;
     display: inline-block;
+
+    height: 28px;
+line-height: 28px;
+border-bottom: dotted 1px #D8D8D8;
 }
 .post-category {
     font-size: 12px;
