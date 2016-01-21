@@ -2,10 +2,11 @@
 <h2>文章分类</h2>
 	<ul class="side_ul">
 		{% for category in site.categories  %}
+		{% assign a ={ category | first  } %}
 		<li><a href="{{ site.url }}/categorys/{{ category | first  }}.html">{{ category | first  }}（{{ category | last | size  }}）</a></li>
 		{% endfor  %}
 	</ul>
 	{{ category  }}
-	{{site.catenames[{{ category | first  }}]}}
+	{{site.catenames[{ category | first  }]}}
 	{{site.collections}}
 </div>
