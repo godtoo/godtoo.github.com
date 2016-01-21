@@ -6,39 +6,7 @@ keywords: 电子商务,互联网创业,O2O,电商,移动互联网
 ---
 <!-- 标签云 -->
 
-{% if paginator.page ==1 %}
-<!-- 头条 -->
-{% for page in site.pages %}
-{% if page.group == 'topline' %}
-<div class="toutiao idx-toutiao radius">
-    <h2>
-        <a href="{{ site:url  }}{{ page.url  }}" target="_blank">{{page.title}}</a>
-    </h2>
-    <p>{{page.subtitle}}</p>
-    <div class="box-img">
-        <a href="{{ site:url  }}{{ page.url  }}" target="_blank">
-            <img src="{{ site:url }}/images/{{ page.img }}"></a>
-    </div>
-    <div class="box-other">
-        <span class="toggle-tooltip later-reading-wrap">
-            <a href="javascript:void(0);" class="later-reading-btn " aid="44492" data-toggle="tooltip" data-placement="top" data-original-title="稍后阅读，保存后在微信中也可查看列表.^_^"> <i data-original-title="" title=""></i>
-            </a>
-        </span>
-        <span class="source-quote">
-            <a class="hx-card" userid="303086" href="/member/303086.html" target="_blank">Eastland</a>
-            <a href="/renzheng.html?#hxtdrz" target="_blank" class="c-hxrz hxfwtd" title="虎嗅团队"></a>
-        </span>
-        <time>{{ page.date | date:"%Y-%m-%d" }}</time>
-        <span class="comment-box"> <i class="icon-comment"></i>
-            <a href="/comment/44492/1.html" target="_blank">9</a>
-        </span>
-        <span class="tags-box">{{ page.tags | array_to_sentence_string }}</span>
-    </div>
-</div>
-{% endif %}
-{% endfor %}
 
-{% endif %}
 
 
 <!-- 文章列表 -->
@@ -69,7 +37,7 @@ keywords: 电子商务,互联网创业,O2O,电商,移动互联网
                 <span>{{post.author}}</span>
                 <i></i>
             </a>
-            <a href="" class="sor">{{post.category}}</a>
+            <a href="" class="sor">{{  site.catenames[post.category]}}</a>
         </div>
     </div>
 </div>
@@ -88,7 +56,7 @@ keywords: 电子商务,互联网创业,O2O,电商,移动互联网
 
     {% else %}
     <span><<</span>
-    {% endif %} 
+    {% endif %}
 
 
       {% if paginator.page == 1 %}
@@ -97,7 +65,7 @@ keywords: 电子商务,互联网创业,O2O,电商,移动互联网
         <a href="/">1</a>
       {% endif %}
 
-    {% for count in (2..paginator.total_pages) limit:8 %} 
+    {% for count in (2..paginator.total_pages) limit:8 %}
     {% if count == paginator.page %}
     <span class="current">{{count}}</span>
     {% else %}
