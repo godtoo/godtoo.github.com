@@ -2,4 +2,4 @@ baseurl: /
 url: http://www.godtoo.com
 permalink: /:title.html
 paginate: 10
-catenames: {开发者手册: developer, opinions:  观点与感想}
+catenames: {开发者手册:developer, opinions:  观点与感想}
