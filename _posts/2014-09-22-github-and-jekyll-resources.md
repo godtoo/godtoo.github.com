@@ -3,7 +3,7 @@ layout: post
 title: "Jekyll和Github资源汇总"
 img: 201409/220101.jpg
 description: "基于GitHub搭建免费无限流量Blog，对于普通用户来说，特别是无程序编程基础的用户，难度是很大的。如果你愿意挑战，我把涉及到的资源进行了汇总，方便查阅。如果你有好的资源，欢迎留言"
-category: Github
+category: 开发者手册
 tags: [Jekyll,Github]
 author: 大熊
 ---
