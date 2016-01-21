@@ -49,7 +49,9 @@ author: 大熊
 ![Alt "gitbash"](/images/201301/github/gitbash_cmd.jpg)
 
 以下步骤将在该命令窗口中完成。
+
 ####1、生成SSH Key
+
 输入下面第1行代码，回车。后面几步按回车键即可。第3行代码是提示给key文件命名，回车后按默认名字命名。
 
 {% highlight bash %}
@@ -66,7 +68,9 @@ author: 大熊
 {% endhighlight %}
 
 最后看到这样的界面，就成功设置ssh key了：
+
 ####2、添加SSH Key到GitHub
+
 在本机生成SSH Key之后，需要添加到GitHub上，以完成SSH链接的设置。用文本编辑工具打开id_rsa.pub文件，该文件在C:\Users\（你的电脑用户名）\.ssh目下。如果看不到这个文件，你需要设置显示隐藏文件。
 
 在GitHub的主页上点击设置按钮：
@@ -77,6 +81,7 @@ author: 大熊
 ![Alt "msysgit_install"](/images/201301/github/github_setting_addkey.jpg)
 
 ####3、测试连接
+
 可以输入下面的命令，看看设置是否成功，git@github.com的部分不要修改：
 {% highlight bash %}
 $ ssh -T git@github.com
@@ -91,7 +96,9 @@ Are you sure you want to continue connecting (yes/no)?
 {% highlight bash %}
 Hi <em>username</em>! You've successfully authenticated, but GitHub does not provide shell access.
 {% endhighlight %}
+
 ####4、设置你的账号信息
+
 现在我们已经可以通过SSH链接到GitHub了，还有一些个人信息需要完善。从电脑本地提交文件到github,Git会根据用户的名字和邮箱来记录提交,也就是说提交文件时需输入用户名等信息。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置。
 {% highlight bash %}
 $ git config --global user.name "注册时的用户名"
