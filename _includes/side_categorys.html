@@ -4,7 +4,7 @@
 		{% for category in site.categories  %}
 			{{site.catenames.{ category | first | first }}}
 		<li><a href="{{ site.url }}/categorys/{{ category | first  }}.html">{{ category | first  }}（{{ category | last | size  }}）</a></li>
-    {{category}}
 		{% endfor  %}
+		{{site.categories.CATEGORY}}
 	</ul>
 </div>
