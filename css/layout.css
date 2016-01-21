@@ -52,7 +52,7 @@ body {
 }
 
 /*文章内容*/
-.postbox {
+.postbox,.categorybox {
     width: 750px;
     padding: 10px 10px;
     padding-left: 20px;

@@ -1,4 +1,4 @@
-<div class="news">
+<div class="categorybox">
 	<h3>{{ page.catename }}({{ site.categories[page.catename] | size }})</h3>
 	<ul class="index_ul">
 		{% for post in site.categories[page.catename] %}
@@ -6,4 +6,3 @@
 		{% endfor %}
 	</ul>
 </div>
-
