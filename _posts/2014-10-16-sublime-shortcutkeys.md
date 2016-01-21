@@ -4,7 +4,7 @@ title: "Sublime text 快捷键汇总"
 img: 201410/160101.jpg
 description: "Sublime Text 的快捷键还支持双重组合，譬如默认情况下，将选中的文字改成大写的热键是“Ctrl+K, Ctrl+U”，意思是当你先按下 Ctrl+K 之后迅速再按 Ctrl+U 进行触发（只按下Ctrl+K是没有作用的），这样可以避免很多热键冲突，也可以更灵活更多选择地进行热键自定义。不过在这里就不打算教大家怎样修改各种配置或修改热键了，这恐怕能出一个手册的。"
 keywords: sublime
-category: 常用工具
+category: tools
 tags: [sublime]
 author: 大熊
 ---

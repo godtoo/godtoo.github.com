@@ -4,7 +4,7 @@ title: "为markdown的超链接加上target='_blank'"
 img: 201409/230101.jpg
 description: "Markdown支持两种形式的链接语法：行内和参考两种形式，两种都是使用角括号来把文字转成连结。而不管是使用哪种形式，生成的超链接默认是在本窗口打开的。Markdown语法目前还不支持生成“_blank”属性。是不是就没有办法了呢？"
 keywords: Markdown
-category: 开发者手册
+category: developer
 tags: [Markdown]
 author: 大熊
 ---

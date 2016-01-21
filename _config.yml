@@ -2,4 +2,4 @@ baseurl: /
 url: http://www.godtoo.com
 permalink: /:title.html
 paginate: 10
-catenames: {developer: 开发者手册,opinions:  观点与感想,books: 推荐书单}
+catenames: {developer: 开发者手册,opinions:  观点与感想,books: 推荐书单,tools: 常用工具,mind: 思维训练,brand: 品牌与战略,ued: 用户体验,wa: 网站分析,business: 商业模式,project: 项目管理}

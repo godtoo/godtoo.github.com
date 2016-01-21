@@ -2,7 +2,7 @@
 layout: post
 title: "基于GitHub搭建免费无限流量blog--使用GitHub Pages创建博客"
 img: 201301/cblog/blog.jpg
-category: 开发者手册
+category: developer
 tags: [Github]
 author: 大熊
 description: "本篇GitHub pages将隆重登场，它是建立你的blog的核心功能。通过msysgit客户端与GitHub建立连接后，就可以方便的使用它提供的Pages服务。"

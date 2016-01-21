@@ -4,7 +4,7 @@ title: "为什么每次push都要输入账号密码？"
 img: 201305/200101.jpg
 description: "第一次使用github,每次push代码至github的时候，都要求输入用户名和密码，感觉很麻烦,原以为就是这样，但总觉得还是有其他方式，经过资料搜索，终于知道如何解决不需要每次输密码了。"
 keywords: github,ssh,https,密钥
-category: 开发者手册
+category: developer
 tags: [Github]
 author: 大熊
 ---

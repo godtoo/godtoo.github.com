@@ -3,7 +3,7 @@ layout: post
 title: "基于GitHub搭建免费无限流量blog--绑定域名"
 img: 201301/domain/github_domain.jpg
 description: "历尽千辛万苦，终于把blog建立起来了，但是fety.github.com域名还是向广大人们宣示github的身份。你一定想要一个自己的域名，完全属于自己的地盘。OK！没问题，只需注册申请一个域名，稍加配置即可，你的地盘你做主。"
-category: 开发者手册
+category: developer
 tags: [Github]
 author: 大熊
 ---
