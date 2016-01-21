@@ -4,27 +4,27 @@ title: "为markdown的超链接加上target='_blank'"
 img: 201409/230101.jpg
 description: "Markdown支持两种形式的链接语法：行内和参考两种形式，两种都是使用角括号来把文字转成连结。而不管是使用哪种形式，生成的超链接默认是在本窗口打开的。Markdown语法目前还不支持生成“_blank”属性。是不是就没有办法了呢？"
 keywords: Markdown
-category: Github
+category: 开发者手册
 tags: [Markdown]
 author: 大熊
 ---
 
 Markdown 支持两种形式的链接语法：行内和参考两种形式，两种都是使用角括号来把文字转成连结。
 
-行内形式是直接在后面用括号直接接上链接： 
+行内形式是直接在后面用括号直接接上链接：
 {% highlight bash %}
-This is an [example link](http://example.com/). 
+This is an [example link](http://example.com/).
 {% endhighlight %}
-输出 HTML 为： 
+输出 HTML 为：
 {% highlight bash %}
 This is an <a href="http://example.com/">example link</a>
 {% endhighlight %}
 
-你也可以选择性地加上 title 属性： 
+你也可以选择性地加上 title 属性：
 {% highlight bash %}
 This is an [example link](http://example.com/ "With a Title").
 {% endhighlight %}
-输出 HTML 为： 
+输出 HTML 为：
 {% highlight bash %}
 This is an <a href="http://example.com/" title="With a Title">example link</a>.
 {% endhighlight %}

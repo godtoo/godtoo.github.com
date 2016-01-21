@@ -4,7 +4,7 @@ title: "同一台电脑，如何用SSH连接多个github帐号"
 img: 201410/200101.jpg
 description: "做为一个好程序员，没有几个github怎么说得过去。也许一个是个人所用，一个是为公司项目所用，也许个人就有好几个账号（搭建多个个人网站），但你配置好SSH连接后，一个公钥是不能给多个账号使用的，会提示你“Key is already in use”。那么我们可以生成另一个公钥不就可以了吗？"
 keywords: github
-category: github
+category: 开发者手册
 tags: [github]
 author: 大熊
 ---

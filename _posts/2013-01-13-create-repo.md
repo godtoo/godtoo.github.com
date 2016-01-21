@@ -3,7 +3,7 @@ layout: post
 title: "基于GitHub搭建免费无限流量blog--在GitHub上创建代码仓库"
 img: 201301/repo/git_songshu.jpg
 description: "本篇将介绍如何在GitHub上创建代码仓库，以及如何上传本地项目文件至代码仓库，如何获取代码仓库文件至本地电脑。熟练这两步，是后续创建和发布blog的基础。"
-category: Github
+category: 开发者手册
 tags: [Github]
 author: 大熊
 ---
