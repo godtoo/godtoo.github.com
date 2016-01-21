@@ -99,6 +99,7 @@ Are you sure you want to continue connecting (yes/no)?
 Hi <em>username</em>! You've successfully authenticated, but GitHub does not provide shell access.
 {% endhighlight %}
 
+
 ####4、设置你的账号信息
 
 现在我们已经可以通过SSH链接到GitHub了，还有一些个人信息需要完善。从电脑本地提交文件到github,Git会根据用户的名字和邮箱来记录提交,也就是说提交文件时需输入用户名等信息。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置。
