@@ -1,5 +1,5 @@
 <div class="categorybox radius">
-	<h3>{{ site.catenames[page.catename] }}({{ site.categories[page.catename] | size }})</h3>
+	<h3>分类：{{ site.catenames[page.catename] }} （共{{ site.categories[page.catename] | size }}篇文章)</h3>
 	<ul class="index_ul">
 		{% for post in site.categories[page.catename] %}
 		<li><span>[{{ post.date | date:"%Y-%m-%d"  }}]</span><a href="{{ site:url  }}{{ post.url  }}" target="_blank">{{post.title}}</a> </li>
