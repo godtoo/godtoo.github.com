@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "基于GitHub搭建免费无限流量blog--使用GitHub Pages创建博客"
+title: "基于GitHub搭建免费无限流量blog--使用GitHub Pages"
 img: 201301/cblog/blog.jpg
 category: developer
 tags: [Github]
