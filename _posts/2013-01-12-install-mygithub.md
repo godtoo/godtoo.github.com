@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "基于GitHub搭建blog免费无限流量--前期准备"
+title: "基于GitHub搭建blog免费无限流量--安装Mygithub"
 img: 201301/github/github.jpg
 description: "首次在GitHub上搭建Blog，并不是一件轻松的事情。对于无IT背景，更确切的说是无代码编写经验的人，此方法不推荐使用。如果你是一个爱折腾的人，恭喜你，GitHub就是为你准备的。当你熟练地虐它千百遍后，那种满足感油然而生。此处，贡献虐它宝典。"
 category: developer
