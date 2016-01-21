@@ -112,4 +112,5 @@ $ git config --global user.email "your_email@youremail.com"
 ![Alt "msysgit_install"](/images/201301/github/github_setting_accout.jpg)
 
 到此，你以成功的连接了github。恭喜你，可以休息下。
+
 特别提醒：如果你想在另一台电脑上建立连接，除了不需要重新创建github账户外，其他步骤依次执行(关键是添加新的SSH Key)。
