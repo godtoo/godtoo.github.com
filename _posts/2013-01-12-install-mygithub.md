@@ -74,9 +74,11 @@ author: 大熊
 在本机生成SSH Key之后，需要添加到GitHub上，以完成SSH链接的设置。用文本编辑工具打开id_rsa.pub文件，该文件在C:\Users\（你的电脑用户名）\.ssh目下。如果看不到这个文件，你需要设置显示隐藏文件。
 
 在GitHub的主页上点击设置按钮：
+
 ![Alt "msysgit_install"](/images/201301/github/github_setting.jpg)
 
 选择SSH Keys项，把复制的内容粘贴进去，然后点击Add Key按钮即可：
+
 ![Alt "msysgit_install"](/images/201301/github/github_setting_sshkey.jpg)
 ![Alt "msysgit_install"](/images/201301/github/github_setting_addkey.jpg)
 
@@ -105,6 +107,7 @@ $ git config --global user.name "注册时的用户名"
 $ git config --global user.email "your_email@youremail.com"
 {% endhighlight %}
 个人信息的设置，在目录C:\Users\{你的电脑用户名}下，生成文件名为{.gitconfig}的文件，用文本编辑器打开，里面的内容如下：
+
 ![Alt "msysgit_install"](/images/201301/github/github_setting_accout.jpg)
 
 到此，你以成功的连接了github。恭喜你，可以休息下。
