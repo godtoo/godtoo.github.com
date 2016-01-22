@@ -8,7 +8,9 @@ tags: [Github,Mygithub]
 author: 大熊
 ---
 
-首次在GitHub上搭建Blog，并不是一件轻松的事情。对于无IT背景，更确切的说是无代码编写经验的人，此方法不推荐使用。如果你是一个爱折腾的人，恭喜你，GitHub就是为你准备的。当你熟练地虐它千百遍后，那种满足感油然而生。此处，贡献虐它宝典。Git是一个分布式版本控制工具，GitHub基于git的类似google code的代码仓库服务提供商，既提供免费的代码仓库服务，也提供付费服务。更详细资料请百度、google代劳回答。
+首次在GitHub上搭建Blog，并不是一件轻松的事情。对于无IT背景，更确切的说是无代码编写经验的人，此方法不推荐使用。如果你是一个爱折腾的人，恭喜你，GitHub就是为你准备的。当你熟练地虐它千百遍后，那种满足感油然而生。此处，贡献虐它宝典。
+
+Git是一个分布式版本控制工具，GitHub基于git的类似google code的代码仓库服务提供商，既提供免费的代码仓库服务，也提供付费服务。更详细资料请百度、google代劳回答。
 
 ## 一、注册GitHub账号
 
@@ -39,7 +41,7 @@ author: 大熊
 ![Alt "msysgit_install"](/images/201301/github/msysgit_install_finish.jpg)
 
 
-##三、配置GitHUb
+##三、配置GitHub
 上步成功安装客户端后，在电脑桌面上你会看到如图所示图标
 
 ![Alt "gitbash"](/images/201301/github/gitbash_ico.jpg)
@@ -103,6 +105,7 @@ Hi <em>username</em>! You've successfully authenticated, but GitHub does not pro
 ####4、设置你的账号信息
 
 现在我们已经可以通过SSH链接到GitHub了，还有一些个人信息需要完善。从电脑本地提交文件到github,Git会根据用户的名字和邮箱来记录提交,也就是说提交文件时需输入用户名等信息。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置。
+
 {% highlight bash %}
 $ git config --global user.name "注册时的用户名"
 $ git config --global user.email "your_email@youremail.com"
