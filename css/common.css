@@ -214,6 +214,10 @@ font-weight: bold;
     font-family: Avenir,'Microsoft Yahei','Hiragino Sans GB','Microsoft Sans Serif','WenQuanYi Micro Hei',sans-serif;
 }
 
+.postcontent p a{
+  color: #3169B0;
+}
+
 .postcontent blockquote {
     padding: 5px;
     margin: 2px;

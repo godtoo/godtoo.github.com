@@ -8,7 +8,7 @@ tags: [Github]
 author: 大熊
 ---
 
-上一篇[《免费搭建无限流量博客--配置和使用github》](http://gudoor.com/github/2013/01/12/build-blog-by-github-install-msysgit.html)，介绍了如何在GitHub创建账户，并通过msysgit客户端与GitHub建立连接。本篇将介绍如何在GitHub上建立Blog，与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.com这样的用户&组织页（站），另一种是依附项目的pages。介绍GitHub Pages功能前，先介绍如何在github上创建代码仓库。
+上一篇[《免费搭建无限流量Blog--配置和使用github》](http://www.godtoo.com/install-mygithub.html)，介绍了如何在GitHub创建账户，并通过msysgit客户端与GitHub建立连接。本篇将介绍如何在GitHub通过创建代码库建立Blog。与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的username.github.com这样的用户&组织页（站），另一种是依附项目的pages。介绍GitHub Pages功能前，先介绍如何在github上创建代码仓库。
 
 ###一、在github上创建代码仓库
 
