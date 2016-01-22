@@ -218,6 +218,9 @@ font-weight: bold;
   color: #3169B0;
 }
 
+.postcontent code{
+  margin: 10px 0px;
+}
 .postcontent blockquote {
     padding: 5px;
     margin: 2px;
