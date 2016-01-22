@@ -363,6 +363,7 @@ font-size: 24px;
     color: #737373;
     padding: 0 0 0 10px;
     margin-left: 10px;
+        padding-top: 2px;
     background: url("../../images/articleList-sprite.png") no-repeat -100px 8px;
 }
 
