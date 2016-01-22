@@ -27,7 +27,7 @@ author: 大熊
 
 ####1、创建项目文件目录
 
-在你的电脑上，建立一个目录，作为项目的主目录。命名为"blog"。你可以在windows系统目录“C:\Users\\{你的电脑用户名}”下点击右键创建名称为"blog"的文件夹；你也可以在Git Bash命令窗口下创建，如下图所示，所创建文件夹默认就是在“C:\Users\\{你的电脑用户名}”。当然你也可以把目录设在其他盘符，放在默认目录并不是强制的。如果是放在其他目前，主要需在命令窗口通过“cd” 定位到该目录。 
+在你的电脑上，建立一个目录，作为项目的主目录。命名为"blog"。你可以在windows系统目录“C:\Users\\{你的电脑用户名}”下点击右键创建名称为"blog"的文件夹；你也可以在Git Bash命令窗口下创建，如下图所示，所创建文件夹默认就是在“C:\Users\\{你的电脑用户名}”。当然你也可以把目录设在其他盘符，放在默认目录并不是强制的。如果是放在其他目前，主要需在命令窗口通过“cd” 定位到该目录。
 
 ![ALT '创建github代码仓库'](/images/201301/repo/github_mkdir.jpg)
 
@@ -48,7 +48,7 @@ $ git commit -a -m "First page commit" (提交代码文件)
 
 ####4、推送内容至github代码库中
 
-在第一步，我们创建了代码库"fety.github.com",并在本地电脑创建了项目文件夹和文件，这里介绍如果把本地项目文件推送到代码库"fety.github.com"。
+在第一步，我们创建了代码库"fety.github.com",并在本地电脑创建了项目文件夹和文件，这里介绍如何把本地项目文件推送到代码库"fety.github.com"。
 
 {% highlight bash %}
 $ git remote add origin https://github.com/fety{fety是我们的用户名}/fety.github.com.git
