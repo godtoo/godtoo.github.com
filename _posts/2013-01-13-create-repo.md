@@ -20,25 +20,25 @@ author: 大熊
 
 ![ALT '创建github代码仓库'](/images/201301/repo/github_create_repo_desc.jpg)
 
- 如图所示，我创建了名为"fety.github.com"的代码仓库。
+ 如图所示，我创建了名为"fety.github.com"的代码仓库，特别提醒fety是我的用户名。
 
 ###二、获取和上传代码仓库文件
 
 
-###创建项目文件目录
+####1、创建项目文件目录
 
-在你的电脑上，建立一个目录，作为项目的主目录。命名为"blog"。你可以在windows系统目录“C:\Users\{你的电脑用户名}”下点击右键创建名称为"blog"的文件夹；你也可以在Git Bash命令窗口下创建，如下图所示，所创建文件夹默认就是在“C:\Users\{你的电脑用户名}”。
+在你的电脑上，建立一个目录，作为项目的主目录。命名为"blog"。你可以在windows系统目录“C:\Users\\{你的电脑用户名}”下点击右键创建名称为"blog"的文件夹；你也可以在Git Bash命令窗口下创建，如下图所示，所创建文件夹默认就是在“C:\Users\\{你的电脑用户名}”。当然你也可以把目录设在其他盘符，放在默认目录并不是强制的。如果是放在其他目前，主要需在命令窗口通过“cd” 定位到该目录。 
 
 ![ALT '创建github代码仓库'](/images/201301/repo/github_mkdir.jpg)
 
-###git初始化项目目录。
+####2、git初始化项目目录。
 
 {% highlight bash %}
 $ cd blog
 $ git init
 {% endhighlight %}
 
-###创建index.html文件
+####3、创建index.html文件
 
 {% highlight bash %}
 $ echo "My GitHub Page" > index.html (创建文件index.html,写入内容“My GitHub Page")
@@ -46,7 +46,7 @@ $ git add .   (把文件添加到本地代码库)
 $ git commit -a -m "First page commit" (提交代码文件)
 {% endhighlight %}
 
-###推送内容至github代码库中
+####4、推送内容至github代码库中
 
 在第一步，我们创建了代码库"fety.github.com",并在本地电脑创建了项目文件夹和文件，这里介绍如果把本地项目文件推送到代码库"fety.github.com"。
 
