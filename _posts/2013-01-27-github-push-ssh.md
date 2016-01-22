@@ -16,7 +16,7 @@ author: 大熊
 $git remote add origin https://github.com/fety/fety.github.com.git
 {% endhighlight %}
 
-###如何查看当前连接方式？
+####如何查看当前连接方式？
 在git bash命令窗口里输入
 {% highlight bash %}
 $git remote -v
@@ -27,7 +27,7 @@ origin https://github.com/fety/fety.github.com.git (fetch)
 origin https://github.com/fety/fety.github.com.git (push)
 {% endhighlight %}
 
-###如何把https换成ssh方式
+####如何把https换成ssh方式
 通过下面的命令
 {% highlight bash %}
 1. git remote rm origin
@@ -35,7 +35,7 @@ origin https://github.com/fety/fety.github.com.git (push)
 3. git push origin
 {% endhighlight %}
 
-###什么是SSH?
+####什么是SSH?
 Secure Shell（缩写为SSH），由IETF的网络工作小组（Network Working Group）所制定；SSH为一项创建在应用层和传输层基础上的安全协议，为计算机上的Shell（壳层）提供安全的传输和使用环境。
 
 **优点：**
