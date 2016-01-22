@@ -367,12 +367,9 @@ font-size: 24px;
     background: url("../../images/articleList-sprite.png") no-repeat -100px 8px;
 }
 
-.tags{
-  margin-top: 3px;
-}
 .metatag .tags li{
 float: left;
-padding-right: 10px;
+padding: 3px 10px 0px 0px;
 
 }
 
